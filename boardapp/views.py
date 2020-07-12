@@ -33,3 +33,7 @@ def loginfunc(request):
             return redirect('signup')
 
     return render(request, 'login.html')
+
+
+def listfunc(request):
+    return render(request, 'list.html')
